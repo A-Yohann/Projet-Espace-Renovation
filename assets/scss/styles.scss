@@ -1,7 +1,19 @@
-@use "../scss/abstracts/mixins";
-@use "../scss/abstracts/variables" as variable ;
-@use "../scss/components/buttons";
-@use "../scss/components/card";
-@use "../scss/layout/footer";
-@use "../scss/layout/header";
+// PARTIE DOSSIER ABSTRACTS
+@use "abstracts/mixins";
+@use "abstracts/variables" as variable ;
+
+// PARTIE DOSSIER BASE
+@use "base/typographie";
+@use "base/utils.scss";
+
+// PARTIE DOSSIER COMPONENTS
+@use "components/buttons";
+@use "components/card";
+@use "components/navbar";
+
+// PARTIE DOSSIER LAYOUTS
+@use "layout/footer";
+@use "scss/layout/header";
+@use "scss/layout/hero";
+@use "scss/layout/main";
 
