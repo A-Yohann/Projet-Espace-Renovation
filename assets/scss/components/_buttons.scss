@@ -1,0 +1,21 @@
+.btn{
+    display: inline-block;
+    border: 1px solid #112e3e;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 0;
+    width: 25%;
+}
+
+
+.flex-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn-primary{
+    background-color: #112e3e;
+    color: #f3f3f3;
+    text-align: center;
+    }
+}
+

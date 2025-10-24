@@ -3,16 +3,20 @@
 
 // PARTIE DOSSIER BASE
 @use "base/typographie";
-@use "base/utils.scss";
+@use "base/utils";
+@use "base/base";
 
 // PARTIE DOSSIER COMPONENTS
 @use "components/buttons";
 @use "components/card";
 @use "components/navbar";
+@use "components/description";
 
 // PARTIE DOSSIER LAYOUTS
 @use "layout/footer";
-@use "scss/layout/header";
-@use "scss/layout/hero";
-@use "scss/layout/main";
+@use "layout/header";
+@use "layout/hero";
+@use "layout/main";
+
+
 
