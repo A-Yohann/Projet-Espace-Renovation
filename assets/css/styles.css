@@ -89,13 +89,8 @@ body {
   padding-bottom: 20px;
 }
 .flex-services .services-content {
-  height: 50%;
   width: 33%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
+  text-align: center;
 }
 .flex-services .services-content img {
   height: 50px;
@@ -135,6 +130,47 @@ body {
 .info {
   text-align: center;
   padding: 20px;
+}
+
+footer {
+  background-color: #112e3e;
+  padding: 40px 20px;
+}
+footer .flex-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer img {
+  height: 150px;
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 40%;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #f3f3f3;
+}
+footer .logo-footer {
+  width: 70px;
+  height: 50px;
+  padding-left: 20px;
+}
+footer h3, footer p {
+  color: #f3f3f3;
+  padding-left: 20px;
+}
+footer .contact {
+  border-left: 1px solid #f3f3f3;
+  border-spacing: 10px;
+}
+footer .mention {
+  text-align: center;
 }
 
 header {
