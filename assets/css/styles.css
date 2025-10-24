@@ -89,6 +89,7 @@ body {
   padding-bottom: 20px;
 }
 .flex-services .services-content {
+  height: 50%;
   width: 33%;
   display: flex;
   justify-content: center;
@@ -98,11 +99,19 @@ body {
 }
 .flex-services .services-content img {
   height: 50px;
-  width: 50px;
+  width: 100px;
   object-fit: contain;
 }
 .flex-services .services-content h2 {
   font-size: 1rem;
+}
+.flex-services .services-content p {
+  margin: 0;
+  padding: 0;
+}
+.flex-services .services-content h3 {
+  padding: 0;
+  margin: 0;
 }
 .flex-services .services-container {
   margin: 0 auto;
@@ -121,6 +130,11 @@ body {
 }
 .nos-dernieres-realisations li {
   list-style: none;
+}
+
+.info {
+  text-align: center;
+  padding: 20px;
 }
 
 header {
