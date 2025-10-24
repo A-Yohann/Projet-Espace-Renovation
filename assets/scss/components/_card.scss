@@ -1,0 +1,14 @@
+.flex-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+
+    .cards-content{
+        text-align: center;
+       
+        img{
+            width: 300px;
+        }
+    }
+}

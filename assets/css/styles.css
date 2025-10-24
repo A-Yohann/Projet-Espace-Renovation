@@ -39,6 +39,19 @@ body {
   text-align: center;
 }
 
+.flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.flex-cards .cards-content {
+  text-align: center;
+}
+.flex-cards .cards-content img {
+  width: 300px;
+}
+
 .navbar ul {
   display: flex;
   flex-direction: row;
@@ -94,6 +107,20 @@ body {
 .flex-services .services-container {
   margin: 0 auto;
   padding: 0;
+}
+
+.nos-dernieres-realisations {
+  text-align: center;
+  padding-top: 20px;
+}
+.nos-dernieres-realisations ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.nos-dernieres-realisations li {
+  list-style: none;
 }
 
 header {
